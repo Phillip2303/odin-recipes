@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F6F0F0;
+}
+
+h1 {
+    font-family: 'Brush Script MT', Cursive;
+}
+
+p, ul, h2 {
+    font-family: Arial, serif;
+}
+
+.indexContent {
+    text-align: center;
+}
+
+.indexContent h1 {
+    font-size: 128px;
+    width: 800px;
+    margin: 20px auto;
+    margin-bottom: 50px;
+    background-color: #9df9ef;
+    padding: 5px;
+    color: #504B38;
+}
+
+.indexContent ul {
+    font-size: 64px;
+}
+
+.indexContent li {
+    padding: 50px;
+    width: 500px;
+    margin: 40px auto;
+    list-style: none;
+    background-color: #D5E5D5; 
+}
