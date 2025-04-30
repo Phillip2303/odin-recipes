@@ -16,6 +16,8 @@ p, ul, h2 {
     font-family: Arial, serif;
 }
 
+/* Index Style */
+
 .indexContent {
     text-align: center;
 }
@@ -40,4 +42,61 @@ p, ul, h2 {
     margin: 40px auto;
     list-style: none;
     background-color: #D5E5D5; 
+}
+
+/* Lasagna Style */
+
+.lasagnaContent a {
+    display: block;
+    text-align: center;
+    font-size: 64px;
+}
+
+.lasagnaContent h1 {
+    text-align: center;
+    font-size: 128px;
+}
+
+.lasagnaContent h2 {
+    font-size: 64px;
+}
+
+.lasagnaContent p, .lasagnaContent li {
+    font-size: 32px;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+.lasagnaContent img {
+    display: block;
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.lasagnaContent .recipe {
+    text-align: center;
+    width: 1200px;
+    margin: 40px auto;
+}
+
+.desc, .ingredients, .steps {
+    background-color: #9EC6F3;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.steps {
+    width: 1200px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.steps li {
+    margin-bottom: 20px;
+    list-style-position: inside;
 }
