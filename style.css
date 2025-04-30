@@ -44,24 +44,24 @@ p, ul, h2 {
     background-color: #D5E5D5; 
 }
 
-/* Lasagna Style */
+/* Recipe Style */
 
-.lasagnaContent a {
+.content a {
     display: block;
     text-align: center;
     font-size: 64px;
 }
 
-.lasagnaContent h1 {
+.content h1 {
     text-align: center;
     font-size: 128px;
 }
 
-.lasagnaContent h2 {
+.content h2 {
     font-size: 64px;
 }
 
-.lasagnaContent p, .lasagnaContent li {
+.content p, .content li {
     font-size: 32px;
     
 }
@@ -70,14 +70,14 @@ ul {
     list-style: none;
 }
 
-.lasagnaContent img {
+.content img {
     display: block;
     width: 400px;
     height: auto;
     margin: 0 auto;
 }
 
-.lasagnaContent .recipe {
+.content .recipe {
     text-align: center;
     width: 1200px;
     margin: 40px auto;
